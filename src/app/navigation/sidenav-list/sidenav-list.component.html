@@ -1,0 +1,29 @@
+<mat-nav-list>
+    <a mat-list-item routerLink="/home" (click)="onSidenavClose()">
+        <mat-icon>home</mat-icon> <span class="nav-caption">Home</span>
+    </a>
+    <a mat-list-item routerLink="#" (click)="onSidenavClose()">
+        <mat-icon> contacts</mat-icon><span class="nav-caption">Contact Me</span>
+    </a>
+</mat-nav-list>
+
+<mat-list-item [matMenuTriggerFor]="menu">
+    <mat-icon>unfold_more</mat-icon>
+    <a matline>Example</a>
+</mat-list-item>
+
+<mat-menu #menu="matMenu">
+   <a mat-menu-item routerLink="/contact" (click)="onSidenavClose()" 
+   onClick="window.open('mailto:yusup.juniadi@outlook.com')" >
+      <mat-icon>email</mat-icon> <span class="nav-contact">Email</span>
+   </a>
+   <a mat-menu-item routerLink="/contact" (click)="onSidenavClose()" 
+   onClick="window.open('https://wa.me/6281289066999')" >
+      <mat-icon>phone</mat-icon> <span class="nav-contact">Phone/WA</span>
+   </a>
+   <a mat-menu-item routerLink="/contact" (click)="onSidenavClose()" 
+   onClick="window.open('https://join.skype.com/invite/nccRdWpbqges')" >
+      <mat-icon>missed_video_call</mat-icon> <span class="nav-contact">Skype</span>
+   </a>
+  
+</mat-menu>
