@@ -13,7 +13,6 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { StudentComponent } from './student/student.component';
 import { DosenComponent } from './dosen/dosen.component';
-import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule, MatIconModule, MatCardModule, MatButtonModule, MatProgressSpinnerModule } from '@angular/material';

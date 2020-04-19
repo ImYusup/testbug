@@ -21,10 +21,10 @@
             "aot": false,
             "assets": [
               "src/favicon.ico",
-              
+              "src/assets"
             ],
             "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "public"
+  "defaultProject": "public",
+  "cli": {
+    "analytics": "6c12093e-1b4b-47ac-a6c8-3300db492dfe"
+  }
 }

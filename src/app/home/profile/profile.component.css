@@ -1,0 +1,9 @@
+.example-button-row button,
+.example-button-row a {
+  margin-right: 3px;
+  position: relative;
+  width: 180px;
+  font-weight: 900;
+  color:#4f4f4f;
+  font: Arial, sans-serif;
+}

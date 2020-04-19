@@ -19,7 +19,7 @@ export class SidenavListComponent implements OnInit {
     this.sidenavClose.emit();
     this.toggleActive = !this.toggleActive;
     
-    console.log('Clicked');
+    console.log('Clicked Teruzzz BoZZ!!!');
   }
 
 }

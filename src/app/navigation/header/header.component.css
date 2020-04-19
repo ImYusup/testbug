@@ -1,3 +1,6 @@
+
+/* @import '~@angular/material/prebuilt-themes/deeppurple-amber.css'; */
+
 a {
     text-decoration: none;
     color: white;
@@ -18,3 +21,15 @@ a:hover, a:active{
 mat-toolbar{
     border-radius: 3px;
 }
+
+
+/* mat-sidenav-container, mat-sidenav-content, mat-sidenav {
+  height: 100%;
+  background-color: #ffffff;
+}
+mat-sidenav {
+  width: 250px;
+}
+main {
+  padding: 10px;
+} */
