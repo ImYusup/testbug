@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'home', component: DigitalClockComponent },
   { path: 'data/student', component: StudentDetailsComponent },
   { path: 'data/dosen', component: DosenDetailsComponent },
-    { path: 'contact', component: ContactComponent },
+  { path: 'contact', component: ContactComponent },
   { path: 'about', component: AboutComponent },
   { path: '**', component: NoPageFoundComponent }
 ];
