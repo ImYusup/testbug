@@ -1,7 +1,7 @@
 ImYusup.github.io
 =========================
 
-**Welcome to my curriculum vitae**
+**Welcome to My Curriculum Vitae**
 
-[Link] : https://imyusup.github.io/
+[CV-Yusup](https://imyusup.github.io/)
 
